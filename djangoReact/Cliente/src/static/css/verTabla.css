@@ -1,0 +1,105 @@
+ /*
+    Tipografia
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
+/*
+    Estilos Generales
+*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Encabezado de la pagina*/
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+header .tituloEncabezado{
+    align-self: center;
+    margin-left: 10px;
+}
+
+header .logoIzquierdo{
+    width: -100%;
+    padding: 32px;
+}
+
+.logoIzquierdo img{
+    width: 50px;
+    height: 50px;
+}
+
+/*Perfil*/
+
+.contenedorPerfil {
+    display: flex;
+    justify-content: end;
+    width: 99%;
+    padding: 10px;        
+}
+
+.contenedorPerfil .textoPerfil{
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+
+
+/*Barra de navegacion*/
+
+li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+/*Tabla de Usuarios*/
+
+th{
+    text-align:center;
+}
+
+td{
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*Footer de la pagina*/
+footer .contenedorFooter{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 30px;
+}
+
+.contenedorFooter img{
+    width: 50px;
+    height: 45px;
+}
+
+.contenedorFooter h3{
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+}

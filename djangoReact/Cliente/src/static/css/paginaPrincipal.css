@@ -1,0 +1,330 @@
+ /*
+    Tipografia
+*/
+        
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
+/*
+    Estilos Generales
+*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+/*Barra de navegacion*/
+
+.navbar{
+    width: 100%;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar a{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #71d7b2;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar p{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 2.5rem;
+    margin-left: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Descripcion Hotel*/
+
+.aboutHotel{
+   height: 520px;
+   padding: 10px;
+   background: url('../img/hotelFondo.jpg') fixed no-repeat;
+   background-size: cover;
+   color: black;
+}
+
+.aboutHotel .contenedorPaginaPrincipal{
+    max-width: 600px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.aboutHotel p{
+    text-align: center;
+    font-size:1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aboutHotel img{
+    border-radius: 20%;
+    margin:20px 0px 20px 0px;
+}
+
+/*Seccion de Servicios*/
+
+.servicios{
+    padding: 40px 20px 60px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.tituloServicios{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.servicios .columna{
+    background-color: #ebfff7;
+    padding: 20px;
+    border: 2px solid rgb(177, 177, 177);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    text-align: center;
+}
+
+.servicios .columna:hover{
+    color: black;
+    background-color: rgb(242, 255, 252);
+}
+
+.servicios i{
+    font-size: 2.5rem;
+    color: black;
+    background-color: white;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+
+.servicios-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.badge{
+    margin: 5px;
+    color: black;
+    background-color: white;
+}
+
+/*
+    Seccion de Opiniones
+*/
+
+.testimonios{
+    background: url('../img/hotelFondo.jpg') fixed no-repeat;
+    background-size: cover;
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel{
+    max-width: 900px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.testimonios .opinionTexto{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonios-imagen{
+    height: 160px;
+    width: 170px;
+    margin: 30px 10px 30px;
+}
+
+.testimonio-texto{
+    max-width: 70%;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 135px;
+}
+
+
+.testimonio-info{
+    margin-bottom: 0;
+}
+
+.testimonio-info .personaOpinion{
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.testimonio-info .fecha{
+    font-size: 1rem;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+/*Redes Sociales*/
+
+footer{
+    min-height: 250px;
+    color: #0a0a23;
+    background-color: white;
+}
+
+.footer-logo{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto{
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    transition: all 0.2s ease-in;
+    margin-top: -10px;
+}
+
+.iconos-redes-sociales i{
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    border: 2px solid #7eb7a1;
+}
+
+.iconos-redes-sociales a:hover i{
+    color: #7eb7a1;
+}
+
+.derechos-de-autor{
+    text-align: center;
+    font-size: 15px;
+    color: #7ad0b1;
+    padding: 20px;
+}
+
+/*Adaptable o Responsiva*/
+
+@media screen and (max-width:600px){
+    .navbar-brand{
+       display: none; 
+    }
+    .navbar p{
+        font-size: 1.5rem;
+        margin-left: 25%;
+        font-weight: bold;
+    }
+    .navbar a{
+        margin-left: 0px;
+    }
+
+    .aboutHotel{
+        height: 630px;
+    }
+
+    .aboutHotel p{
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+    
+    .aboutHotel img{
+        width: 250px;
+        border-radius: 20%;
+        margin:20px 0px 20px 0px;
+    }
+
+    .footer-texto{
+        font-size: 1.4rem;
+    }
+    .testimonios-imagen{
+        margin-left:32%;
+    }
+    .testimonio-texto{
+        margin-left: 50px;
+        font-size: 1.2rem;
+    }
+    .personaOpinion{
+        font-size: 0.8rem;
+    }
+    .testimonios .fecha{
+        font-size: 0.8rem;
+    }
+    .testimonios .opinionTexto{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:700px){
+    .hero-inferior-imagen{
+        max-width:600px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .testimonios-imagen{
+        height: 120px;
+        width: 120px;
+    }
+    .testimonio-texto{
+        font-size: 15px;
+    }
+}

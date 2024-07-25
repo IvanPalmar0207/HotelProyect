@@ -1,0 +1,45 @@
+    /*
+        Tipografia
+    */
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+    /*
+        Cuerpo de la pagina de error 404
+    */
+
+    h2{
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        margin-top: 150px;
+    }
+
+    .contenedorImg{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .contenedorEnlace a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    a{
+        font-family: 'Roboto', sans-serif;
+        color: turquoise;
+        font-weight: bold;
+    }
+
+    .contenedorImg img{
+        margin-top: 40px;
+        width: 200px;
+        height: 200px;
+        border-radius: 30%;
+    }
